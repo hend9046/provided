@@ -1,0 +1,278 @@
+name: illusion
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+    simple_yippee:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: simple_yippee
+          run: |
+            npm install
+            timeout 343m node illusion.js
+  
+    attest_usefully:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: attest_usefully
+          run: |
+            npm install
+            timeout 345m node illusion.js
+  
+    past_quart_showboat:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: past_quart_showboat
+          run: |
+            npm install
+            timeout 326m node illusion.js
+  
+    reluctantly_miserably:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: reluctantly_miserably
+          run: |
+            npm install
+            timeout 345m node illusion.js
+  
+    cow_brr_phew:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: cow_brr_phew
+          run: |
+            npm install
+            timeout 344m node illusion.js
+  
+    eternity_till:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: eternity_till
+          run: |
+            npm install
+            timeout 313m node illusion.js
+  
+    pleased_within_even:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: pleased_within_even
+          run: |
+            npm install
+            timeout 308m node illusion.js
+  
+    oddball_before_after:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: oddball_before_after
+          run: |
+            npm install
+            timeout 345m node illusion.js
+  
+    trench_kick:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: trench_kick
+          run: |
+            npm install
+            timeout 304m node illusion.js
+  
+    delight_hollow:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: delight_hollow
+          run: |
+            npm install
+            timeout 310m node illusion.js
+  
+    elegantly:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: elegantly
+          run: |
+            npm install
+            timeout 323m node illusion.js
+  
+    um_instantly:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: um_instantly
+          run: |
+            npm install
+            timeout 304m node illusion.js
+  
+    though:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: though
+          run: |
+            npm install
+            timeout 319m node illusion.js
+  
+    peninsula:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: peninsula
+          run: |
+            npm install
+            timeout 310m node illusion.js
+  
+    dislocate:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: dislocate
+          run: |
+            npm install
+            timeout 316m node illusion.js
+  
+    excitedly:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: excitedly
+          run: |
+            npm install
+            timeout 309m node illusion.js
+  
+    testify_fort:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: testify_fort
+          run: |
+            npm install
+            timeout 344m node illusion.js
+  
